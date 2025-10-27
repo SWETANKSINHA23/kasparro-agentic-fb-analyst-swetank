@@ -1,0 +1,46 @@
+# Configuration file for Facebook Ads Multi-Agent System (Deterministic)
+
+# Project metadata
+project:
+  name: "Kasparro Agentic FB Analyst"
+  version: "1.0.0"
+
+# Data configuration
+data:
+  csv_path: "data/synthetic_fb_ads_undergarments.csv"
+  sample_mode: true  # Matches reference output
+
+# Analysis thresholds
+thresholds:
+  confidence_min: 0.6
+  min_confidence: 0.65
+  min_support: 0.12
+  roas_drop_pct: 10.0
+  ctr_drop_pct: 10.0
+  cpm_rise_pct: 10.0
+  spend_change_pct: 15.0
+
+# Analysis settings
+analysis:
+  default_days_back: 7
+  min_data_points: 5
+
+# Output settings
+outputs:
+  reports_dir: "reports"
+  save_json: true
+  save_markdown: true
+
+# Runtime settings
+runtime:
+  log_level: "INFO"
+  random_seed: 42
+  python: "3.10"
+
+# Agent configuration (kept for compatibility)
+agents:
+  max_iterations: 8
+  timeout_seconds: 240
+
+
+
