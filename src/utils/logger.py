@@ -28,3 +28,5 @@ def setup_logger(name: str = __name__) -> logging.Logger:
 # note: important
 
 # refactor later
+
+# optimized
