@@ -73,3 +73,5 @@ class InsightAgent:
 # TODO: check this
 
 # refactor later
+
+# optimized
