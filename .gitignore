@@ -1,0 +1,25 @@
+# General
+__pycache__/
+*.py[cod]
+*.log
+
+# Environment variables
+.env
+.venv/
+venv/
+
+# Editor config
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dataset files
+data/*.csv
+!data/synthetic_fb_ads_undergarments.csv
+
+# Allow logs for submission
+!logs/*.log
+!logs/*.json

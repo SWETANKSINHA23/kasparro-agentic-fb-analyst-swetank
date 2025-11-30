@@ -1,0 +1,244 @@
+{
+  "query": "Analyze ROAS drop in last 7 days",
+  "timestamp": "2025-11-29T23:59:34.648743",
+  "architecture": "Fully Deterministic (Pranay Style)",
+  "llm_calls_made": 0,
+  "plan": {
+    "reasoning": "Deterministic analysis pipeline for Facebook Ads data",
+    "tasks": [
+      {
+        "description": "Load and validate Facebook Ads data",
+        "required_metrics": [
+          "spend",
+          "revenue",
+          "roas",
+          "impressions",
+          "clicks",
+          "ctr"
+        ],
+        "filters": {}
+      },
+      {
+        "description": "Calculate window aggregates (recent vs previous period)",
+        "required_metrics": [
+          "spend",
+          "revenue",
+          "roas",
+          "impressions",
+          "clicks",
+          "ctr",
+          "cpm",
+          "cpc"
+        ],
+        "filters": {}
+      },
+      {
+        "description": "Generate hypotheses using rule-based logic",
+        "required_metrics": [
+          "percent_changes"
+        ],
+        "filters": {}
+      },
+      {
+        "description": "Validate hypotheses using deterministic scoring",
+        "required_metrics": [
+          "confidence",
+          "validated"
+        ],
+        "filters": {}
+      },
+      {
+        "description": "Generate creative recommendations (if applicable)",
+        "required_metrics": [
+          "ctr",
+          "creative_message"
+        ],
+        "filters": {
+          "underperforming": true
+        }
+      }
+    ]
+  },
+  "data_summary": {
+    "total_spend": 2105579.9,
+    "total_impressions": 1190236513,
+    "total_clicks": 15071264,
+    "total_purchases": 341144,
+    "total_revenue": 12265700.719999999,
+    "average_ctr": 0.013065511111111112,
+    "total_roas": 5.8253314063265895
+  },
+  "insights": {
+    "recent_window": {
+      "spend": 190288.36000000002,
+      "impressions": 104101427,
+      "clicks": 1284697,
+      "purchases": 27583,
+      "revenue": 977704.32,
+      "ctr": 1.2340820265605004,
+      "cpm": 1.827913079423974,
+      "roas": 5.138014327308301,
+      "cpc": 0.148119253022308
+    },
+    "previous_window": {
+      "spend": 192911.45,
+      "impressions": 108118736,
+      "clicks": 1284766,
+      "purchases": 29668,
+      "revenue": 1066845.2200000002,
+      "ctr": 1.1882917314164678,
+      "cpm": 1.7842555059097251,
+      "roas": 5.530232757049932,
+      "cpc": 0.1501529850572011
+    },
+    "percent_changes": {
+      "spend": -1.3597378486346956,
+      "impressions": -3.7156455473175343,
+      "clicks": -0.005370627803039619,
+      "purchases": -7.027774032627747,
+      "revenue": -8.355560706360032,
+      "ctr": 3.85345567367111,
+      "cpm": 2.446822967318767,
+      "roas": -7.092258987501585,
+      "cpc": -1.3544399627608763
+    },
+    "hypotheses": [
+      {
+        "hypothesis": "ROAS dropped 7.1% — campaigns are less efficient",
+        "confidence": 0.7092258987501585,
+        "actionable": true,
+        "supporting_evidence": [
+          "ROAS dropped from 5.53 to 5.14",
+          "ROAS shift: -7.1%"
+        ],
+        "recommendation": "Review campaign targeting and creative performance"
+      },
+      {
+        "hypothesis": "CTR increased 3.9% — creatives may be fatiguing or less relevant",
+        "confidence": 0.8563234830380244,
+        "actionable": true,
+        "supporting_evidence": [
+          "CTR increased from 1.1883 to 1.2341",
+          "CTR shift: +3.9%"
+        ],
+        "recommendation": "Analyze what's working and scale successful creatives"
+      },
+      {
+        "hypothesis": "Spend decreased 1.4% — could impact reach and impressions",
+        "confidence": 0.9,
+        "actionable": true,
+        "supporting_evidence": [
+          "Spend decreased from $192,911.45 to $190,288.36",
+          "Spend shift: -1.4%"
+        ],
+        "recommendation": "Review budget allocation and performance after decreased spend"
+      },
+      {
+        "hypothesis": "Impressions dropped 3.7% — audience size or delivery issues possible",
+        "confidence": 0.85,
+        "actionable": true,
+        "supporting_evidence": [
+          "Impressions dropped from 108,118,736 to 104,101,427",
+          "Impressions shift: -3.7%"
+        ],
+        "recommendation": "Check audience saturation, budget constraints, or bid strategy"
+      },
+      {
+        "hypothesis": "Purchases down 7.0% — conversion drop or weaker creative performance",
+        "confidence": 0.9370365376836997,
+        "actionable": true,
+        "supporting_evidence": [
+          "Purchases dropped from 29,668 to 27,583",
+          "Purchases shift: -7.0%"
+        ],
+        "recommendation": "Audit landing pages, checkout flow, and creative messaging"
+      }
+    ],
+    "thinking": "Deterministic rule-based analysis",
+    "analysis": "Metric changes from baseline to recent period:\n  - SPEND: decreased 1.4%\n  - IMPRESSIONS: decreased 3.7%\n  - CLICKS: decreased 0.0%\n  - PURCHASES: decreased 7.0%\n  - REVENUE: decreased 8.4%\n  - CTR: increased 3.9%\n  - CPM: increased 2.4%\n  - ROAS: decreased 7.1%\n  - CPC: decreased 1.4%",
+    "conclusions": [
+      {
+        "hypothesis": "ROAS dropped 7.1% — campaigns are less efficient",
+        "confidence": 0.7092258987501585,
+        "actionable": true,
+        "supporting_evidence": [
+          "ROAS dropped from 5.53 to 5.14",
+          "ROAS shift: -7.1%"
+        ],
+        "recommendation": "Review campaign targeting and creative performance"
+      },
+      {
+        "hypothesis": "CTR increased 3.9% — creatives may be fatiguing or less relevant",
+        "confidence": 0.8563234830380244,
+        "actionable": true,
+        "supporting_evidence": [
+          "CTR increased from 1.1883 to 1.2341",
+          "CTR shift: +3.9%"
+        ],
+        "recommendation": "Analyze what's working and scale successful creatives"
+      },
+      {
+        "hypothesis": "Spend decreased 1.4% — could impact reach and impressions",
+        "confidence": 0.9,
+        "actionable": true,
+        "supporting_evidence": [
+          "Spend decreased from $192,911.45 to $190,288.36",
+          "Spend shift: -1.4%"
+        ],
+        "recommendation": "Review budget allocation and performance after decreased spend"
+      },
+      {
+        "hypothesis": "Impressions dropped 3.7% — audience size or delivery issues possible",
+        "confidence": 0.85,
+        "actionable": true,
+        "supporting_evidence": [
+          "Impressions dropped from 108,118,736 to 104,101,427",
+          "Impressions shift: -3.7%"
+        ],
+        "recommendation": "Check audience saturation, budget constraints, or bid strategy"
+      },
+      {
+        "hypothesis": "Purchases down 7.0% — conversion drop or weaker creative performance",
+        "confidence": 0.9370365376836997,
+        "actionable": true,
+        "supporting_evidence": [
+          "Purchases dropped from 29,668 to 27,583",
+          "Purchases shift: -7.0%"
+        ],
+        "recommendation": "Audit landing pages, checkout flow, and creative messaging"
+      }
+    ]
+  },
+  "validated_hypotheses": [
+    {
+      "hypothesis": "ROAS dropped 7.1% — campaigns are less efficient",
+      "confidence": 0.248,
+      "validated": true,
+      "evidence": "ROAS changed by -7.1% (recent: 5.14, baseline: 5.53)"
+    },
+    {
+      "hypothesis": "CTR increased 3.9% — creatives may be fatiguing or less relevant",
+      "confidence": 0.077,
+      "validated": false,
+      "evidence": "CTR shift: +3.9% - direction mismatch or insufficient change"
+    },
+    {
+      "hypothesis": "Spend decreased 1.4% — could impact reach and impressions",
+      "confidence": 0.027,
+      "validated": false,
+      "evidence": "Spend shift: -1.4% - direction mismatch or insufficient change"
+    },
+    {
+      "hypothesis": "Impressions dropped 3.7% — audience size or delivery issues possible",
+      "confidence": 0.15,
+      "validated": false,
+      "evidence": "Impressions shift: -3.7% - direction mismatch or insufficient change"
+    },
+    {
+      "hypothesis": "Purchases down 7.0% — conversion drop or weaker creative performance",
+      "confidence": 0.15,
+      "validated": false,
+      "evidence": "Purchases shift: -7.0% - direction mismatch or insufficient change"
+    }
+  ]
+}

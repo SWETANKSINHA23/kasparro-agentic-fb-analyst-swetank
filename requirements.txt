@@ -1,0 +1,7 @@
+# Core dependencies (Pranay's exact versions)
+pandas==2.2.2
+numpy==1.26.4
+pyyaml==6.0.1
+
+# Testing
+pytest==7.4.3

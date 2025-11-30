@@ -1,0 +1,18 @@
+Initializing Agents...
+Loading data from data/synthetic_fb_ads_undergarments.csv
+Loaded 4500 rows
+
+Planning analysis for: 'Analyze ROAS drop in last 7 days'      
+   Reasoning: Standard analysis flow.
+
+Loading and aggregating data...
+   Analysis Window: 2025-03-24 to 2025-03-31
+
+Generating insights...
+
+Validating hypotheses...
+   - Confirmed: ROAS dropped significantly. (Conf: 0.80)       
+
+Compiling final report...
+
+Analysis Complete! Reports saved to reports/
