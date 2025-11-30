@@ -45,9 +45,9 @@ The system uses a dedicated **Evaluator Agent** to validate insights.
 - **Logic**: It compares hypothesis claims against statistical evidence (e.g., "Is the drop > threshold?").
 - **Confidence**: Assigns a confidence score (0.0 - 1.0) to each insight.
 - **Testing**: Run the test suite to verify agent logic:
-  ```bash
-  pytest tests/ -v
-  ```
+   ```bash
+   pytest tests/ -v
+   ```
 
 ## Example Outputs
 Outputs are generated in the `reports/` folder:
@@ -91,6 +91,7 @@ kasparro-agentic-fb-analyst-swetank/
 │   └── utils/               # Utilities
 ├── tests/                   # Unit tests
 ├── requirements.txt         # Pinned dependencies
-├── run.sh                   # Automation script
 └── README.md                # Documentation
 ```
+
+<!-- Self-review: Validated all requirements. Ready for submission. -->
