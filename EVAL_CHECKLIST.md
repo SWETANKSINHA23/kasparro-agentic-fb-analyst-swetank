@@ -11,7 +11,6 @@
 
 ## 2. Code Quality
 - [x] No hardcoded paths (use `os.path`)
-- [x] No API keys or LLM calls (100% deterministic)
 - [x] Modular architecture (agents separated)
 - [x] Type hinting used in key functions
 - [x] Docstrings present for classes and methods
