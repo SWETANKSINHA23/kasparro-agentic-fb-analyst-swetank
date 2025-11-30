@@ -32,3 +32,7 @@
 - [x] `README.md` explains how to run
 - [x] `agent_graph.md` describes architecture
 - [x] `TEST_RESULTS_SUMMARY.md` shows execution results
+
+## 6. Submission Readiness
+- [x] API keys removed/verified absent
+- [x] Final polish of README
