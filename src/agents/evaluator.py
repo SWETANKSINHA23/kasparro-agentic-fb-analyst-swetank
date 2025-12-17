@@ -68,22 +68,12 @@ class EvaluatorAgent:
         if v0 == 0: return 0.0
         return (v1 - v0) / v0
 
-# refactor later
 
-# temporary fix
 
-# refactor later
 
-# TODO: check this
 
-# temporary fix
 
-# optimized
 
-# note: important
 
-# TODO: check this
 
-# note: important
 
-# temporary fix

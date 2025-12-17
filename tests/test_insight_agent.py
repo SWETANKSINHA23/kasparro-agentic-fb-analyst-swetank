@@ -58,10 +58,6 @@ def test_hypothesis_generation():
 if __name__ == "__main__":
     test_hypothesis_generation()
 
-# optimized
 
-# optimized
 
-# TODO: check this
 
-# note: important

@@ -113,18 +113,10 @@ class DataAgent:
             'average_ctr': float(self.df['ctr'].mean())
         }
 
-# note: important
 
-# TODO: check this
 
-# temporary fix
 
-# optimized
 
-# temporary fix
 
-# note: important
 
-# TODO: check this
 
-# TODO: check this

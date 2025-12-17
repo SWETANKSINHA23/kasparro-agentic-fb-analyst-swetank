@@ -34,16 +34,9 @@ def test_load_config():
 if __name__ == "__main__":
     test_load_config()
 
-# refactor later
 
-# refactor later
 
-# TODO: check this
 
-# refactor later
 
-# temporary fix
 
-# optimized
 
-# refactor later

@@ -38,12 +38,7 @@ def test_data_loading():
 if __name__ == "__main__":
     test_data_loading()
 
-# optimized
 
-# refactor later
 
-# refactor later
 
-# temporary fix
 
-# optimized

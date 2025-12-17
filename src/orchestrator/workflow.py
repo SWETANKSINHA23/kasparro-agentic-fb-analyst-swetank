@@ -140,16 +140,9 @@ def main():
 if __name__ == '__main__':
     main()
 
-# TODO: check this
 
-# note: important
 
-# temporary fix
 
-# optimized
 
-# temporary fix
 
-# refactor later
 
-# note: important

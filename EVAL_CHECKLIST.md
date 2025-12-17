@@ -37,6 +37,4 @@
 - [x] API keys removed/verified absent
 - [x] Final polish of README
 
-<!-- updated -->
 
-<!-- updated -->

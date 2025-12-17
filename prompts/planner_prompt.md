@@ -48,6 +48,4 @@ The planner returns a JSON object with:
 }
 ```
 
-<!-- updated -->
 
-<!-- updated -->

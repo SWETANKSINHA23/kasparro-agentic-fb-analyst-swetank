@@ -76,18 +76,10 @@ date,campaign_name,spend,revenue,roas
 - Generated for educational purposes
 - GDPR/CCPA compliant (synthetic)
 
-<!-- updated -->
 
-<!-- updated -->
 
-<!-- updated -->
 
-<!-- updated -->
 
-<!-- updated -->
 
-<!-- updated -->
 
-<!-- updated -->
 
-<!-- updated -->

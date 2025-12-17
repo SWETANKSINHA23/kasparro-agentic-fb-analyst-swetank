@@ -64,14 +64,8 @@ class InsightAgent:
             lines.append(f"- {metric} {direction} by {abs(v)*100:.1f}%")
         return "\n".join(lines)
 
-# note: important
 
-# note: important
 
-# note: important
 
-# TODO: check this
 
-# refactor later
 
-# optimized

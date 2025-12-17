@@ -35,20 +35,11 @@ The evaluator assigns a confidence score (0.0 - 1.0) based on the strength of th
 }
 ```
 
-<!-- updated -->
 
-<!-- updated -->
 
-<!-- updated -->
 
-<!-- updated -->
 
-<!-- updated -->
 
-<!-- updated -->
 
-<!-- updated -->
 
-<!-- updated -->
 
-<!-- updated -->

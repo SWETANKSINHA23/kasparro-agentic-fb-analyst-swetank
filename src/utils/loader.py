@@ -17,16 +17,9 @@ def ensure_reports_directory() -> str:
     os.makedirs(reports_dir, exist_ok=True)
     return reports_dir
 
-# refactor later
 
-# refactor later
 
-# TODO: check this
 
-# note: important
 
-# note: important
 
-# note: important
 
-# optimized

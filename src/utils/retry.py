@@ -30,12 +30,7 @@ def retry(
                            attempt, retries, getattr(func, "__name__", str(func)), e, wait)
             time.sleep(wait)
 
-# refactor later
 
-# temporary fix
 
-# optimized
 
-# note: important
 
-# refactor later

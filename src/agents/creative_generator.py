@@ -101,8 +101,5 @@ class CreativeGenerator:
         tokens = re.findall(r'\b[a-zA-Z]+\b', msg.lower())
         return [w for w in tokens if len(w) > 3 and w not in stopwords][:5]
 
-# note: important
 
-# temporary fix
 
-# note: important

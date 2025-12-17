@@ -23,12 +23,7 @@ def validate_schema(df_columns) -> None:
 
     logger.info("Schema validation passed. All required columns present.")
 
-# optimized
 
-# note: important
 
-# note: important
 
-# temporary fix
 
-# TODO: check this

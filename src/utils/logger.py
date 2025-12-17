@@ -25,8 +25,5 @@ def setup_logger(name: str = __name__) -> logging.Logger:
         
     return logger
 
-# note: important
 
-# refactor later
 
-# optimized
